@@ -1,0 +1,199 @@
+{
+  "raw_rows": 541909,
+  "raw_cols": 8,
+  "duplicate_rows": 5268,
+  "date_start": "2010-12-01",
+  "date_end": "2011-12-09",
+  "clean_rows": 536641,
+  "sales_rows": 524878,
+  "product_rows": 522729,
+  "total_completed": 10642110.804000001,
+  "total_product": 10280007.334,
+  "outliers": {
+    "Quantity": {
+      "fence": 28.5,
+      "n": 26815,
+      "pct": 5.129809136282854
+    },
+    "UnitPrice": {
+      "fence": 8.45,
+      "n": 35929,
+      "pct": 6.8733512011003794
+    },
+    "Revenue": {
+      "fence": 38.400000000000006,
+      "n": 41264,
+      "pct": 7.893956524317572
+    }
+  },
+  "bulk_lines": 114,
+  "low_month": "2011-02",
+  "low_month_rev": 522545.56,
+  "high_month": "2011-11",
+  "high_month_rev": 1503866.78,
+  "partial_month": "2011-12",
+  "data_end": "2011-12-09",
+  "monthly": {
+    "2010-12": 821452.73,
+    "2011-01": 689811.61,
+    "2011-02": 522545.56,
+    "2011-03": 716215.26,
+    "2011-04": 536968.49,
+    "2011-05": 769296.61,
+    "2011-06": 760547.01,
+    "2011-07": 718076.12,
+    "2011-08": 757841.38,
+    "2011-09": 1056435.19,
+    "2011-10": 1151263.73,
+    "2011-11": 1503866.78,
+    "2011-12": 637790.33
+  },
+  "peak_week": "2011-11-20",
+  "peak_week_rev": 387064.65,
+  "median_week_rev": 176362.495,
+  "top_revenue_product": [
+    "REGENCY CAKESTAND 3 TIER",
+    174156.54
+  ],
+  "top_units_product": [
+    "PAPER CRAFT , LITTLE BIRDIE",
+    80995
+  ],
+  "top_revenue_table": {
+    "REGENCY CAKESTAND 3 TIER": 174156.54,
+    "PAPER CRAFT , LITTLE BIRDIE": 168469.6,
+    "WHITE HANGING HEART T-LIGHT HOLDER": 106236.72,
+    "PARTY BUNTING": 99445.23,
+    "JUMBO BAG RED RETROSPOT": 94159.81,
+    "MEDIUM CERAMIC TOP STORAGE JAR": 81700.92,
+    "RABBIT NIGHT LIGHT": 66870.03,
+    "PAPER CHAIN KIT 50'S CHRISTMAS": 64875.59,
+    "ASSORTED COLOUR BIRD ORNAMENT": 58927.62,
+    "CHILLI LIGHTS": 54096.36
+  },
+  "top_units_table": {
+    "PAPER CRAFT , LITTLE BIRDIE": 80995,
+    "MEDIUM CERAMIC TOP STORAGE JAR": 78033,
+    "WORLD WAR 2 GLIDERS ASSTD DESIGNS": 54951,
+    "JUMBO BAG RED RETROSPOT": 48371,
+    "WHITE HANGING HEART T-LIGHT HOLDER": 37872,
+    "POPCORN HOLDER": 36749,
+    "PACK OF 72 RETROSPOT CAKE CASES": 36396,
+    "ASSORTED COLOUR BIRD ORNAMENT": 36362,
+    "RABBIT NIGHT LIGHT": 30739,
+    "MINI PAINT SET VINTAGE": 26633
+  },
+  "top_units_single_line_share": 1.0,
+  "growing": [
+    [
+      "RABBIT NIGHT LIGHT",
+      37.00672318035662
+    ],
+    [
+      "POPCORN HOLDER",
+      34.565774851376844
+    ],
+    [
+      "PAPER CHAIN KIT 50'S CHRISTMAS",
+      26.437143854927054
+    ],
+    [
+      "PAPER CHAIN KIT VINTAGE CHRISTMAS",
+      23.753519674612868
+    ],
+    [
+      "DOORMAT KEEP CALM AND COME IN",
+      22.588956035475555
+    ]
+  ],
+  "declining": [
+    [
+      "MEDIUM CERAMIC TOP STORAGE JAR",
+      -35.1558856685678
+    ],
+    [
+      "WOOD BLACK BOARD ANT WHITE FINISH",
+      -7.769178526915985
+    ],
+    [
+      "REGENCY CAKESTAND 3 TIER",
+      -4.768727765295442
+    ],
+    [
+      "WHITE HANGING HEART T-LIGHT HOLDER",
+      -2.570826488441196
+    ],
+    [
+      "HEART OF WICKER SMALL",
+      -0.4387476320948194
+    ]
+  ],
+  "uk_revenue": 8751655.684,
+  "uk_share": 85.13277665721945,
+  "n_countries": 38,
+  "top_countries": {
+    "United Kingdom": 8751655.68,
+    "Netherlands": 283889.34,
+    "EIRE": 276090.86,
+    "Germany": 205381.15,
+    "France": 184679.0,
+    "Australia": 138103.81,
+    "Spain": 55706.56,
+    "Switzerland": 53065.6,
+    "Japan": 37416.37,
+    "Belgium": 36927.34
+  },
+  "n_invoices": 19792,
+  "mean_invoice": 519.4021490501212,
+  "median_invoice": 302.25,
+  "p99_invoice": 4415.670400000001,
+  "max_invoice": 168469.6,
+  "busiest_weekday": "Thursday",
+  "busiest_weekday_orders": 4211,
+  "busiest_hour": 12,
+  "quietest_weekday": "Sunday",
+  "days_with_orders": 6,
+  "n_customers": 4338,
+  "known_customer_share": 83.50983237892623,
+  "top10_cust_share": 17.30193616848723,
+  "top20pct_cust_share": 74.68374942194758,
+  "repeat_share": 65.58321807284463,
+  "median_orders": 2.0,
+  "top_customer": [
+    14646,
+    280206.02
+  ],
+  "orders_revenue_spearman": 0.8071848259579629,
+  "strongest_corr": [
+    "avg_order_value vs avg_order_value",
+    NaN
+  ],
+  "n_invoices_all": 25900,
+  "n_cancelled": 3836,
+  "cancel_rate": 14.810810810810812,
+  "cancel_value": 893979.73,
+  "cancel_value_share": 8.400398628287013,
+  "corr_text": "moderate negative association; higher-priced items tend to be bought in smaller quantities",
+  "spearman": -0.4069439809107672,
+  "log_pearson": -0.4235953916748913,
+  "price_band_median_qty": {
+    "\u2264 \u00a31": 12.0,
+    "\u00a31\u20132": 6.0,
+    "\u00a32\u20133": 4.0,
+    "\u00a33\u20135": 2.0,
+    "\u00a35\u201310": 2.0,
+    "> \u00a310": 1.0
+  },
+  "n_checks_match": 16,
+  "n_checks": 19,
+  "recommendations": [
+    "Plan stock and campaigns around the seasonal peak: revenue was highest in 2011-11 (\u00a31,503,867) versus a low of \u00a3522,546 in 2011-02; build inventory and start promotions in the months before the peak.",
+    "Reduce dependence on the UK (85% of product revenue): test marketing and shipping offers in the strongest overseas markets (Netherlands, EIRE, Germany).",
+    "Protect high-value customers: the top 20% of known customers generate 75% of known-customer revenue - introduce account management, loyalty tiers or volume discounts for them.",
+    "Cut cancellations (14.8% of invoices): review the most-cancelled products for quality, description or packaging problems and check the process for wholesale orders.",
+    "Use the typical order (median \u00a3302) as a benchmark: free-shipping thresholds or bundles slightly above it can lift basket size.",
+    "Price and quantity show a moderate negative association; higher-priced items tend to be bought in smaller quantities (Spearman -0.41): offer multi-buy/bundle pricing on low-priced items that customers already buy in volume.",
+    "Time promotions and support to demand: orders peak on Thursday and around 12:00.",
+    "Watch demand trends: Rabbit Night Light is rising fastest among top products and Medium Ceramic Top Storage Jar is declining fastest - confirm with more than one year of data before acting."
+  ]
+}

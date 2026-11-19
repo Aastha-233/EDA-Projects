@@ -1,0 +1,420 @@
+{
+  "raw_rows": 45211,
+  "raw_cols": 17,
+  "duplicate_rows": 0,
+  "missing_cells": 0,
+  "unknown_counts": {
+    "job": 288,
+    "education": 1857,
+    "contact": 13020,
+    "poutcome": 36959
+  },
+  "clean_rows": 45211,
+  "outliers": {
+    "age": {
+      "n": 487,
+      "pct": 1.0771714848156422,
+      "max": 95.0
+    },
+    "balance": {
+      "n": 4729,
+      "pct": 10.459843843312468,
+      "max": 102127.0
+    },
+    "duration": {
+      "n": 3235,
+      "pct": 7.155338302625467,
+      "max": 4918.0
+    },
+    "campaign": {
+      "n": 3064,
+      "pct": 6.7771117648359915,
+      "max": 63.0
+    },
+    "previous": {
+      "n": 8257,
+      "pct": 18.263254517705867,
+      "max": 275.0
+    }
+  },
+  "n_yes": 5289,
+  "overall_rate": 11.698480458295547,
+  "median_age": 39.0,
+  "median_balance": 448.0,
+  "median_duration": 180.0,
+  "median_campaign": 2.0,
+  "by_age": {
+    "Under 25": [
+      25.58714462299135,
+      809
+    ],
+    "25\u201334": [
+      12.482399324134047,
+      14204
+    ],
+    "35\u201344": [
+      9.66010733452594,
+      14534
+    ],
+    "45\u201354": [
+      9.26892950391645,
+      9958
+    ],
+    "55\u201364": [
+      13.092320261437909,
+      4896
+    ],
+    "65+": [
+      42.098765432098766,
+      810
+    ]
+  },
+  "by_job": {
+    "student": [
+      28.678038379530918,
+      938
+    ],
+    "retired": [
+      22.791519434628977,
+      2264
+    ],
+    "unemployed": [
+      15.502686108979278,
+      1303
+    ],
+    "management": [
+      13.755550856417848,
+      9458
+    ],
+    "admin.": [
+      12.202668729452718,
+      5171
+    ],
+    "self-employed": [
+      11.842938568714375,
+      1579
+    ],
+    "unknown": [
+      11.805555555555555,
+      288
+    ],
+    "technician": [
+      11.056996182703699,
+      7597
+    ],
+    "services": [
+      8.883004333172845,
+      4154
+    ],
+    "housemaid": [
+      8.790322580645162,
+      1240
+    ],
+    "entrepreneur": [
+      8.271687962340282,
+      1487
+    ],
+    "blue-collar": [
+      7.274969173859433,
+      9732
+    ]
+  },
+  "by_education": {
+    "tertiary": [
+      15.006390496955117,
+      13301
+    ],
+    "unknown": [
+      13.5702746365105,
+      1857
+    ],
+    "secondary": [
+      10.559434531505904,
+      23202
+    ],
+    "primary": [
+      8.626477886439936,
+      6851
+    ]
+  },
+  "by_marital": {
+    "single": [
+      14.94917904612979,
+      12790
+    ],
+    "divorced": [
+      11.945458037257538,
+      5207
+    ],
+    "married": [
+      10.123465863158668,
+      27214
+    ]
+  },
+  "balance_median_yes": 733.0,
+  "balance_median_no": 417.0,
+  "balance_mean_yes": 1804.2679145396105,
+  "balance_mean_no": 1303.7149691899203,
+  "by_balance_band": {
+    "\u2264 \u20ac0": [
+      6.895604395604396,
+      7280
+    ],
+    "\u20ac1\u2013500": [
+      10.253280439426305,
+      16385
+    ],
+    "\u20ac501\u20132,000": [
+      13.01648141050211,
+      13045
+    ],
+    "\u20ac2,001\u20135,000": [
+      17.114568599717114,
+      5656
+    ],
+    "> \u20ac5,000": [
+      15.500878734622145,
+      2845
+    ]
+  },
+  "by_contacts": {
+    "1": [
+      14.597583219334245,
+      17544
+    ],
+    "2": [
+      11.203518592562975,
+      12505
+    ],
+    "3": [
+      11.193624343416047,
+      5521
+    ],
+    "4\u20135": [
+      8.626560726447218,
+      5286
+    ],
+    "6\u201310": [
+      6.5210509654954105,
+      3159
+    ],
+    "11+": [
+      3.9297658862876257,
+      1196
+    ]
+  },
+  "by_contact": {
+    "cellular": [
+      14.918900460986853,
+      29285
+    ],
+    "telephone": [
+      13.420509291121817,
+      2906
+    ],
+    "unknown": [
+      4.070660522273426,
+      13020
+    ]
+  },
+  "by_poutcome": {
+    "success": [
+      64.72534745201854,
+      1511
+    ],
+    "other": [
+      16.684782608695652,
+      1840
+    ],
+    "failure": [
+      12.609671495613139,
+      4901
+    ],
+    "unknown": [
+      9.161503287426607,
+      36959
+    ]
+  },
+  "by_previously_contacted": {
+    "contacted before": [
+      23.07133341407291,
+      8257
+    ],
+    "never contacted before": [
+      9.157330735509012,
+      36954
+    ]
+  },
+  "by_month": {
+    "jan": [
+      10.121168923734853,
+      1403
+    ],
+    "feb": [
+      16.64779161947905,
+      2649
+    ],
+    "mar": [
+      51.99161425576519,
+      477
+    ],
+    "apr": [
+      19.679399727148706,
+      2932
+    ],
+    "may": [
+      6.719453726572715,
+      13766
+    ],
+    "jun": [
+      10.222804718217562,
+      5341
+    ],
+    "jul": [
+      9.09354604786077,
+      6895
+    ],
+    "aug": [
+      11.013286377461181,
+      6247
+    ],
+    "sep": [
+      46.45941278065631,
+      579
+    ],
+    "oct": [
+      43.766937669376695,
+      738
+    ],
+    "nov": [
+      10.151133501259446,
+      3970
+    ],
+    "dec": [
+      46.728971962616825,
+      214
+    ]
+  },
+  "best_month": "mar",
+  "busiest_month": "may",
+  "duration_median_yes": 426.0,
+  "duration_median_no": 164.0,
+  "target_corr": {
+    "duration": 0.3945210158945639,
+    "pdays_clean": -0.1522058950126687,
+    "previous": 0.09323577278887661,
+    "campaign": -0.07317200634586739,
+    "balance": 0.05283841028818257,
+    "day": -0.02834777672093113,
+    "age": 0.02515501708838736
+  },
+  "top_segments": [
+    [
+      "25\u201334 | \u20ac2,001\u20135,000 | no housing loan",
+      29.738058551617875,
+      649,
+      2.5420445550712722
+    ],
+    [
+      "25\u201334 | \u20ac501\u20132,000 | no housing loan",
+      22.576361221779546,
+      1506,
+      1.9298541637320383
+    ],
+    [
+      "25\u201334 | > \u20ac5,000 | no housing loan",
+      22.514619883040936,
+      342,
+      1.9245764407868478
+    ],
+    [
+      "55\u201364 | \u20ac2,001\u20135,000 | no housing loan",
+      22.07792207792208,
+      539,
+      1.887246993883409
+    ],
+    [
+      "55\u201364 | > \u20ac5,000 | no housing loan",
+      21.202531645569618,
+      316,
+      1.8124175803135716
+    ]
+  ],
+  "bottom_segments": [
+    [
+      "35\u201344 | \u2264 \u20ac0 | housing loan",
+      5.529131985731272,
+      1682,
+      0.4726367672658282
+    ],
+    [
+      "45\u201354 | \u20ac1\u2013500 | housing loan",
+      5.192532088681447,
+      1714,
+      0.443863808397385
+    ],
+    [
+      "45\u201354 | \u2264 \u20ac0 | housing loan",
+      5.178365937859609,
+      869,
+      0.44265286900467155
+    ]
+  ],
+  "n_checks_match": 6,
+  "n_checks": 6,
+  "recommendations": [
+    "Prioritise high-propensity audiences: the best segment (25\u201334 | \u20ac2,001\u20135,000 | no housing loan) subscribes at 29.7% versus 11.7% overall (lift 2.5x, n=649). Pilot campaigns on segments like this first.",
+    "Target by age and occupation: 65+ is the strongest age group (42.1%) and 'student' the strongest job group (28.7%), while 'blue-collar' is the weakest (7.3%). Shift call effort towards the former and use cheaper channels for the latter.",
+    "Re-contact previous successes first: clients with a successful earlier campaign subscribe at 64.7% versus 9.2% for clients with no recorded history (n=1,511).",
+    "Cap repeated contacts: the subscription rate is 14.6% at one contact and 3.9% at 11+ contacts. Set a contact limit and stop calling unresponsive clients to save cost.",
+    "Prefer the more effective channel: cellular contacts convert at 14.9%; improve recording of the contact channel because 'unknown' (4.1%) hides what was used.",
+    "Schedule by season: the best month for conversion (n\u2265200) is mar while the busiest month for calls is may. Test moving some call capacity towards high-conversion months.",
+    "Use balance as a screening aid: median balance is \u20ac733 for subscribers vs \u20ac417 for non-subscribers, but the overlap is large so combine it with other signals.",
+    "Do not use call duration for targeting (median 426s for subscribers vs 164s): it is only known after the call. Use it to evaluate call scripts and agent training instead."
+  ],
+  "age_best": [
+    "65+",
+    42.098765432098766,
+    810
+  ],
+  "age_worst": [
+    "45\u201354",
+    9.26892950391645,
+    9958
+  ],
+  "job_best": [
+    "student",
+    28.678038379530918,
+    938
+  ],
+  "job_worst": [
+    "blue-collar",
+    7.274969173859433,
+    9732
+  ],
+  "edu_best": [
+    "tertiary",
+    15.006390496955117,
+    13301
+  ],
+  "edu_worst": [
+    "primary",
+    8.626477886439936,
+    6851
+  ],
+  "mar_best": [
+    "single",
+    14.94917904612979,
+    12790
+  ],
+  "mar_worst": [
+    "married",
+    10.123465863158668,
+    27214
+  ],
+  "contact_best": [
+    "cellular",
+    14.918900460986853,
+    29285
+  ]
+}
